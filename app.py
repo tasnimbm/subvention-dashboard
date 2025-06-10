@@ -7,7 +7,7 @@ import seaborn as sns
 st.set_page_config(layout="wide")
 
 # Charger les données nettoyées
-df = pd.read_csv("subventions_clean.csv")
+df = pd.read_csv("subventions_clean_depuis_api.csv")
 
 st.title("📊 Analyse Interactive des Subventions")
 
